@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poller+One&display=swap');
+
+:root {
+  background-color: #001d3d;
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  width: 100vw;
+  margin-bottom: -10px;
+}
+
+.shipContainer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 60px;
+  padding-right: 70px;
+}
+
+.header {
+  font-family: 'Poller One', cursive;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  padding: 30px;
+  width: 100vw;
+  text-align: center;
+  color: #ffffff;
+  font-size: 3rem;
+  -webkit-text-stroke: 1px #000000;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  color: #ffffff;
+  font-size: 2rem;
+  width: 450px;
+  font-family: 'Fjalla One', sans-serif;
+  }
+
+.btn::after{
+  margin-right: 5px;
+  margin-top: 20px;
+  content: url("./components/starship.png");
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin-top: 20px;
+  background-color: #e09429;
+  padding-top: 50px;
+}
+
+.banner {
+  width: 100vw;
+  height: 30vh;
+  margin-top: -10px;
+  margin-left: -20px;
+}
