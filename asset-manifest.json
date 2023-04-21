@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "//github.com/Th876/starwars.git/static/css/main.6b1c1845.css",
+    "main.js": "//github.com/Th876/starwars.git/static/js/main.3f79516a.js",
+    "static/media/starship.png": "//github.com/Th876/starwars.git/static/media/starship.e1f22e0eb9af606ded33.png",
+    "static/media/banner.gif": "//github.com/Th876/starwars.git/static/media/banner.0e1d04f9bb363db8965d.gif",
+    "index.html": "//github.com/Th876/starwars.git/index.html",
+    "main.6b1c1845.css.map": "//github.com/Th876/starwars.git/static/css/main.6b1c1845.css.map",
+    "main.3f79516a.js.map": "//github.com/Th876/starwars.git/static/js/main.3f79516a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b1c1845.css",
+    "static/js/main.3f79516a.js"
+  ]
+}
