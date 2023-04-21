@@ -1,7 +1,5 @@
 //Learned to consume a third-party API in React and invoke the call to that API using the useEffecthook.
 //ensure that all API/fetch calls are made from this module
-import { Container, Dimmer, Loader } from 
-'semantic-ui-react';
 import {useState, useEffect} from "react";
 import StarShipCard from "../components/StarShipCard";
 
@@ -29,12 +27,6 @@ export default function Swapi() {
          }, []);
 
          console.log(starShips);
-        //  setLoading(false);
-        //  function checkStarShip() {
-            // if(starShips === null) {
-                // starShips();
-            // }
-        //  } 
 
         const loaded = () => {
             if(starShips === null) {
